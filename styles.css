@@ -77,3 +77,31 @@ main p {
     font-size: 1.2em;
     color: #7f8c8d;
 }
+/* Projects list styles */
+.projects-list {
+    list-style-type: none;
+    padding: 0;
+}
+
+.projects-list li {
+    background-color: #ecf0f1;
+    margin: 10px 0;
+    padding: 20px;
+    border-radius: 8px;
+    transition: background-color 0.3s ease;
+}
+
+.projects-list li:hover {
+    background-color: #bdc3c7;
+}
+
+.projects-list a {
+    text-decoration: none;
+    color: #2980b9;
+    font-weight: bold;
+}
+
+.projects-list p {
+    margin: 10px 0 0;
+    color: #7f8c8d;
+}
