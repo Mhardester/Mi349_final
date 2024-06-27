@@ -28,7 +28,7 @@
             <h2>Ways to Get in Touch</h2>
             <p>You can contact me via email at <a href="mailto:mhardester28@gmail.com">mhardester28@gmail.com</a>.</p>
             <p>Or, you can fill out the form below:</p>
-            <form action="#" method="POST">
+            <form id="contactForm">
                 <label for="name">Name:</label>
                 <input type="text" id="name" name="name" required><br><br>
                 
@@ -42,5 +42,14 @@
             </form>
         </section>
     </main>
+
+    <!-- JavaScript -->
+    <script>
+        document.getElementById('contactForm').addEventListener('submit', function(event) {
+            event.preventDefault();
+            alert('Form submitted!');
+        });
+    </script>
 </body>
 </html>
+
