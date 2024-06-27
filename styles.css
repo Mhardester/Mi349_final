@@ -141,3 +141,29 @@ input[type=submit] {
 input[type=submit]:hover {
     background-color: #45a049;
 }
+/* General styles for About Me page */
+main section {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+}
+
+main h1 {
+    text-align: center;
+    color: #2c3e50;
+}
+
+section h2 {
+    color: #2c3e50;
+}
+
+section p, section ul {
+    color: #7f8c8d;
+    line-height: 1.6;
+}
+
+ul {
+    list-style-type: disc;
+    margin-left: 20px;
+}
