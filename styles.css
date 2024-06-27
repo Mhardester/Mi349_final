@@ -244,12 +244,15 @@ main {
 .hero h1 {
     font-size: 3em;
     margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5); /* Add shadow to make text stand out */
+    font-weight: bold; /* Increase font weight */
 }
 
 .hero p {
     font-size: 1.5em;
     margin-top: 10px;
 }
+
 
 /* Intro section styles */
 .intro {
