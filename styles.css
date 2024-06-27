@@ -167,3 +167,104 @@ ul {
     list-style-type: disc;
     margin-left: 20px;
 }
+/* General body styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    display: flex;
+}
+
+/* Navigation styles */
+nav {
+    width: 250px;
+    background-color: #2c3e50;
+    padding: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.profile {
+    text-align: center;
+}
+
+.profile-image {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+}
+
+nav h2 {
+    margin: 10px 0;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    width: 100%;
+}
+
+nav ul li {
+    width: 100%;
+    margin: 10px 0;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: white;
+    padding: 10px;
+    display: block;
+    text-align: center;
+    border-radius: 5px;
+}
+
+nav ul li a:hover {
+    background-color: #34495e;
+}
+
+/* Main content styles */
+main {
+    flex-grow: 1;
+    padding: 20px;
+}
+
+/* Hero section styles */
+.hero {
+    background-color: #34495e;
+    color: white;
+    padding: 50px;
+    text-align: center;
+    border-radius: 8px;
+}
+
+.hero h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.hero p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+/* Intro section styles */
+.intro {
+    background-color: #ecf0f1;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.intro h2 {
+    color: #2c3e50;
+}
+
+.intro p {
+    color: #7f8c8d;
+    line-height: 1.6;
+}
